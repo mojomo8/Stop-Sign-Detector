@@ -35,7 +35,7 @@ while True:
     if found_stop_sign:
         playsound('Tesla Warning.mp3', False)
 
-    while found_stop_sign: #this loop is to try to prevent the warning from playing in each frame we find a stop sign
+    while found_stop_sign: #this loop is to try to prevent the warning from playing more than once per stop sign
        found_stop_sign=analyze_video()
        if quit():
            break
