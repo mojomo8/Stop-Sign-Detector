@@ -7,3 +7,6 @@ To test the program in real-time, I used the free version of the [iOS EpocCam ap
 ## Results of Testing
 The [SuccessTestFootage.mp4](https://github.com/mojomo8/Stop-Sign-Detector/blob/master/SuccessTestFootage.mp4) file shows examples of the program working successfully.
 
+## References 
+The stopsign classifier file (stopsign_classifier.xml) I used was from [markgaynor's stopsigns repository](https://github.com/markgaynor/stopsigns). Big thank you to [markgaynor](https://github.com/markgaynor).
+
