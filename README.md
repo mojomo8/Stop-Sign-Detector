@@ -1,7 +1,7 @@
 # Stop-Sign-Detector
 This Python project uses OpenCV and iPhone as camera to detect stop signs while driving and provide an audible warning if it detected a stop sign.
 
-                     ![Alt Text](https://github.com/mojomo8/Stop-Sign-Detector/blob/master/DetectedSignPic.png)
+![Alt Text](https://github.com/mojomo8/Stop-Sign-Detector/blob/master/DetectedSignPic.png)
 ## Description
 OpenCV is used with the stopsign_classifier.xml file to detect stop signs in the video feed; the detected stops signs have a box drawn around them, and Tesla's warning sound is played when a stop sign is detected. Also, the time it takes to analyze each frame is printed to the console.
 
